@@ -1,0 +1,35 @@
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}   
+
+.card {
+    background-color: orangered;
+    border: 2px solid black;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+    background-color: crimson;
+    font-size: larger;
+}
+
+header {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: black;
+    color: lightyellow;
+}
+
+.Moto {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: red;
+    color: black;
+}
